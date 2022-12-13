@@ -1,0 +1,26 @@
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 40px;
+}
+.navbar button {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--color-text);
+  font-weight: 600;
+  padding: 8px 20px;
+  font-size: 16px;
+  background-color: transparent;
+  border: 0;
+}
+button.selected {
+  background-color: var(--pink-primary);
+  border-radius: 8px;
+  color: white;
+}
+.navbar button:hover,
+.navbar button:active {
+  background-color: var(--pink-primary);
+  border-radius: 8px;
+  color: white;
+}

@@ -1,0 +1,36 @@
+.carousel {
+  /* background-color: aqua; */
+  padding: 32px;
+}
+
+.carousel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.carousel-header p {
+  color: var(--pink-primary);
+  font-size: 16px;
+}
+
+.swiperSlide img {
+  width: 198px;
+  object-fit: cover;
+  height: 225px;
+  border-radius: 16px;
+}
+
+.swiperSlide {
+  display: grid;
+  justify-items: center;
+}
+
+.swiperSlide p {
+  color: #111210;
+
+  font-size: 16px;
+
+  font-weight: 600;
+
+}

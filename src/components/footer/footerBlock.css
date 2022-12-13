@@ -1,0 +1,19 @@
+.footer-block {
+    position: sticky;
+    left: 0;
+    bottom: 50%;
+    width: 100%;
+    text-align: center;
+    background-color: red;
+    color: white;
+    padding: 32px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+
+}
+
+.social-media-block {
+    display: flex;
+    gap: 16px;
+}

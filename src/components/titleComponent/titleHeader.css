@@ -1,0 +1,10 @@
+.title-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title-header p {
+  color: var(--pink-primary);
+  size: 16px;
+}

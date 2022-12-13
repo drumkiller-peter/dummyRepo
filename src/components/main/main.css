@@ -1,0 +1,64 @@
+.main {
+  padding: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-container {
+  background-color: var(--color-bg);
+  color: white;
+  flex: 3;
+  padding: 60px;
+  margin-right: 32px;
+  margin-left: 70px;
+  background-image: url("../../assets/svg/main.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.main-container p {
+  font-size: 16px;
+  font-weight: 400;
+  flex-wrap: wrap;
+}
+
+.main-container h2 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-right: 300px;
+}
+
+.main-new {
+  flex: 1;
+  margin-right: 100px;
+}
+
+.main-new-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-new-row p {
+  color: var(--color-grey);
+  font-size: 16;
+}
+
+.divider {
+  margin-bottom: 20px;
+  background-color: var(--color-grey);
+  height: 1px;
+}
+
+.new-items p {
+  color: var(--color-grey);
+  font-size: 16px;
+}
+
+.new-items h5 {
+  color: var(--pink-primary);
+}
